@@ -3,6 +3,6 @@
 
 -------
 
-HTML ENTITIES
+### HTML ENTITIES
 
 ----
