@@ -1,9 +1,9 @@
-# Getting Started ( again 😂😂😂😂)
+# WEB DEV 101
 
 
 -------
 
-### HTML ENTITIES
+## HTML ENTITIES
 
 ----
 Entities are used to display
@@ -29,9 +29,27 @@ Entities are used to display
 &gt -> left arrow "<"
 
 ```
-## Link for HTML Entities
+### Link for HTML Entities
 ```
 
 https://www.w3schools.com/charsets/ref_html_entities_4.asp
+
+```
+## HTML Comments
+
+### Syntax
+
+```
+
+<!-- Opening Tag
+
+Closing Tag -->
+
+```
+
+### Example
+
+```
+<!-- This is a comment -->
 
 ```
