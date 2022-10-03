@@ -4,61 +4,110 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-  <title>index</title>
-  <style>
-   
-  </style>
+  <title>AntonyMicheal</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header>
 
-  <div class="heading">
-    <img src="C:/WebDev101/initial_classes/images/My project-1.png" alt="" srcset="">
-    <nav>
-      <a href="#">about</a>
-      <a href="#">Education</a>
-      <a href="#">Interets</a>
-      <a href="#">X</a>
-    </nav>
-  </div>
+    <h1>K S Antony Micheal</h1>
+    <!--
+      A small introduction video would be good
+      >Give links to Linked in, Twitter, Hacker Rank, Phone Number, Email-ID
+      while hovering over the above mentioned options display a message  - You can also use the contact session at the end
+    -->
 
-  <div class="about">
-    <h2>About</h2>
-    <br>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius aliquam reprehenderit, 
-      vitae praesentium debitis perferendis cum qui explicabo. Magnam, perferendis eos autem voluptate praesentium 
-      commodi dolorum mollitia hic, deserunt libero doloremque pariatur nobis. Consequatur, sint? Cupiditate deleniti 
-      laboriosam nam ratione maxime quas ullam odit temporibus quisquam, non cum beatae nobis tempora doloremque, ex 
-      quibusdam porro inventore eaque atque accusantium vel officiis error velit recusandae? Distinctio sint rem consectetur
-       voluptatem explicabo dolores numquam doloremque eligendi dolorum, sed nihil, hic atque exercitationem voluptas esse dolor magni? 
-       Nemo accusantium dolore, error unde commodi cupiditate iusto, 
-      vel consequuntur cumque aspernatur esse rem voluptatem.
-    </p>
-  </div>
-  <div class="education">
-    <div>
+  </header>
+
+  <main>
+    
+    <article>
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est officiis omnis hic, 
+        dolorem soluta error magnam incidunt nisi, enim doloremque, praesentium quas exercitationem 
+        rerum. Dicta ut, quibusdam necessitatibus laboriosam velit eveniet vero dolorem. Dolores est necessitatibus, 
+        itaque eos eum delectus commodi, ullam possimus perspiciatis quas porro fugiat reiciendis sequi!
+      </p>
+    </article>
+
+    <section>
       <h2>Education</h2>
-      <ul type = "square">
-        <li>MSc In Computer Science with Specialisation in Soft Computing</li>
-        <li>Bachelor of Computer Applications</li>
+      <!-- Clicking each of the qualification will lead to the details about that education including subjects learned,
+        Events Orgonized, Location and Images of campus details about campus etc.-->
+      <ol type="I">
+        <li>MSc Computer Science With Specialisation in Softcomputing</li>
+        <li>Bachelor of Computer Application</li>
         <li>Plus Two</li>
+      </ol>
+    </section>
+    
+    <section>
+      <h2>Projects</h2>
+      <!--
+        each projects will be displayed as images of projects which can be slided to shhow other projects, 
+        clicking on images will lead you to the project location and detailed documentation uploaded in github
+      -->
+      <ul>
+        <li>Covid 19 detection using Chest X-Ray images</li>
+        <li>Speech Emotion Recognition</li>
+        <li>Facial Emotion Recognition System</li>
+        <li>Autism detection system</li>
+        <li>Vehicle Rental System</li>
+        <li>Grocery Store</li>
+        <li>Tommato leaf disease detection</li>
       </ul>
-    </div>
-  </div>
+    </section>
 
-  <h2>Projects</h2>
-  <hr>
-  <h2>Certificates</h2>
-  <hr>
-  <h2>Photos</h2>
-  <hr>
-  <h2>Contact</h2>
-  <a href="first_page.html" target="_blank">first_page</a>
-  <a href="payment.html" target="_blank">payment</a>
+    <section>
+      <h2>Certificates / Skills</h2>
+      <!--
+        all the certificates acquired will be displayed in a sliding manner
+      -->
+      <ul>
+        <li>Python for Beginners: Learn Python Programming(Python 3)</li>
+        <li>The Python Bible: Everything You Need to Program in Python</li>
+        <li>Linux Command Line Basics</li>
+        <li>Learn Big Data-The Hadoop Ecosystem Masterclass</li>
+        <li>Hadoop developer in realworld</li>
+        <li>Data Warehouse Fundamentals for Beginners</li>
+        <li>Learn by Example-HBaseThe Hadoop Database</li>
+        <li>Spark and Python for Big Data with PySpark</li>
+        <li>Apache Kafka Series: Learn Apache Kafka for Beginners v3</li>
+        <li>Introduction to Apache NiFi Cloudera DataFlow-HDF2.0</li>
+
+      </ul>
+    </section>
+
+    <section>
+      <h2>Photos</h2>
+      <li>Some Personnel Images including my captures</li>
+      <li>Degree Certificate Image</li>
+      <li>PG certificate Image</li>
+      <li>Campus Images</li>
+    </section>
+    
+    <section>
+      <h2>Contact</h2>
+
+      <form action="#" method="post">
+        Name: <input type="text" name="full_name">
+        <br><br>
+        Developer <input type="radio" name="type_user" value = "developer">
+        recruiter <input type="radio" name="type_user" value = "recruiter">
+        <br><br>
+        Email: <input type="email" name="email_id" id="">
+        <br><br>
+        Message: <textarea name="message" id="" cols="50" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+      </form>
+
+    </section>
+    
+
+
+  </main>
+
 </body>
 </html>
